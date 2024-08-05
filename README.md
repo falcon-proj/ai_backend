@@ -3,6 +3,7 @@
 ### Environment variables 
 ```
 MONGO_URI=<"your mongo uri">
+AI71_API_KEY=<"your ai71 api key">
 OPENAI_API_KEY=<"your openai api key">
 NEO4J_URI=<"your neo4j uri">
 NEO4J_USERNAME=<"your neo4j username">
