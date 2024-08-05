@@ -56,6 +56,6 @@ secretcode : 123
 
 
 ### Backend High Level Design
-![backend_HLD](https://github.com/knacktohack314/ethicheck_backend/assets/86544278/37d91592-3cf3-43ea-a761-34fddb95b2a6)
+![backend_HLD](https://drive.google.com/uc?export=view&id=1OjaCEKjcpnc2tW49rv44v9HoJtNADT5y)
 
 
