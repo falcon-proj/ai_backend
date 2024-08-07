@@ -22,6 +22,12 @@ class JSON_Engine(BaseTool):
         response = self.p.run(**kwargs)
         return response
 
+    def __call__(self, input: Any) -> ToolOutput:
+        return None
+    
+    def metadata(self):
+        pass
+
 
 class FalconLLM:
   def __init__(self, model_name: str = "tiiuae/falcon-180b-chat", api_key_name = "AI71_API_KEY"):
@@ -60,4 +66,11 @@ class Falcon_JSON_Engine(BaseTool):
     def run(self, **kwargs):
         response = self.p.run(**kwargs)
         return response
+
+    def __call__(self, input: Any) -> ToolOutput:
+        return None
+    
+    def metadata(self):
+        pass
+
         
